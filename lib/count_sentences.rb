@@ -7,7 +7,7 @@ class String
   end
 
   def question?
-    self.
+    self.include?("?")
   end
 
   def exclamation?
