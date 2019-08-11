@@ -14,8 +14,7 @@ class String
     self.include?("!")
   end
 
-  def count_sentences
-    #binding.pry
-    self.split(".").count
-  end
+ def count_sentences 
+   string = self.squeeze(”.”) string = string.squeeze(”!”) string.split(/[$.|?|!]/).count end
 end
+
